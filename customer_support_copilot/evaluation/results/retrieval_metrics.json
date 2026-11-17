@@ -1,0 +1,1031 @@
+{
+  "V1 (basic)": {
+    "summary": {
+      "precision_at_5": 0.28750000000000003,
+      "recall_at_5": 0.9125,
+      "coverage": 0.9333333333333332,
+      "routing_accuracy": null,
+      "refusal_accuracy": 1.0,
+      "false_refusals": 1,
+      "questions": 20,
+      "in_scope_questions": 16,
+      "out_of_scope_questions": 4,
+      "multi_source_questions": 6
+    },
+    "questions": [
+      {
+        "id": "Q01",
+        "in_scope": true,
+        "multi_source": false,
+        "retrieved_ids": [
+          "RR-002",
+          "TCK-1014",
+          "TCK-1003",
+          "RR-001",
+          "OG-006"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.4,
+        "recall": 1.0,
+        "routing_correct": null
+      },
+      {
+        "id": "Q02",
+        "in_scope": true,
+        "multi_source": true,
+        "retrieved_ids": [
+          "TCK-1001",
+          "KI-001",
+          "FAQ-011",
+          "KI-002",
+          "FAQ-009"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.4,
+        "recall": 1.0,
+        "routing_correct": null
+      },
+      {
+        "id": "Q03",
+        "in_scope": true,
+        "multi_source": false,
+        "retrieved_ids": [
+          "SH-002",
+          "SH-001",
+          "TCK-1005",
+          "SH-004",
+          "SH-003"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.2,
+        "recall": 1.0,
+        "routing_correct": null
+      },
+      {
+        "id": "Q04",
+        "in_scope": true,
+        "multi_source": true,
+        "retrieved_ids": [
+          "TCK-1004",
+          "OG-002",
+          "OG-005",
+          "OG-003",
+          "TCK-1013"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.4,
+        "recall": 1.0,
+        "routing_correct": null
+      },
+      {
+        "id": "Q05",
+        "in_scope": true,
+        "multi_source": false,
+        "retrieved_ids": [
+          "TCK-1002",
+          "OG-001",
+          "TCK-1014",
+          "OG-005",
+          "TCK-1007"
+        ],
+        "refused": true,
+        "exact_refusal": false,
+        "precision": 0.0,
+        "recall": 0.0,
+        "routing_correct": null
+      },
+      {
+        "id": "Q06",
+        "in_scope": true,
+        "multi_source": true,
+        "retrieved_ids": [
+          "TCK-1002",
+          "RR-003",
+          "TCK-1011",
+          "OG-005",
+          "TCK-1006"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.6,
+        "recall": 0.6,
+        "routing_correct": null
+      },
+      {
+        "id": "Q07",
+        "in_scope": false,
+        "multi_source": false,
+        "retrieved_ids": [
+          "OG-006",
+          "FAQ-002",
+          "RR-001",
+          "RR-002",
+          "FAQ-007"
+        ],
+        "refused": true,
+        "exact_refusal": true,
+        "precision": null,
+        "recall": null,
+        "routing_correct": null
+      },
+      {
+        "id": "Q08",
+        "in_scope": true,
+        "multi_source": false,
+        "retrieved_ids": [
+          "SH-004",
+          "TCK-1012",
+          "SH-005",
+          "RR-002",
+          "TCK-1006"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.2,
+        "recall": 1.0,
+        "routing_correct": null
+      },
+      {
+        "id": "Q09",
+        "in_scope": true,
+        "multi_source": false,
+        "retrieved_ids": [
+          "SH-003",
+          "SH-001",
+          "TCK-1012",
+          "SH-002",
+          "SH-005"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.2,
+        "recall": 1.0,
+        "routing_correct": null
+      },
+      {
+        "id": "Q10",
+        "in_scope": true,
+        "multi_source": false,
+        "retrieved_ids": [
+          "FAQ-010",
+          "KI-005",
+          "FAQ-009",
+          "TCK-1004",
+          "KI-001"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.2,
+        "recall": 1.0,
+        "routing_correct": null
+      },
+      {
+        "id": "Q11",
+        "in_scope": true,
+        "multi_source": false,
+        "retrieved_ids": [
+          "FAQ-006",
+          "KI-006",
+          "TCK-1014",
+          "TCK-1009",
+          "FAQ-007"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.2,
+        "recall": 1.0,
+        "routing_correct": null
+      },
+      {
+        "id": "Q12",
+        "in_scope": true,
+        "multi_source": false,
+        "retrieved_ids": [
+          "OG-006",
+          "OG-005",
+          "RR-003",
+          "TCK-1003",
+          "RR-001"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.2,
+        "recall": 1.0,
+        "routing_correct": null
+      },
+      {
+        "id": "Q13",
+        "in_scope": true,
+        "multi_source": false,
+        "retrieved_ids": [
+          "OG-003",
+          "TCK-1013",
+          "OG-005",
+          "TCK-1005",
+          "RR-003"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.2,
+        "recall": 1.0,
+        "routing_correct": null
+      },
+      {
+        "id": "Q14",
+        "in_scope": true,
+        "multi_source": false,
+        "retrieved_ids": [
+          "TCK-1007",
+          "TCK-1003",
+          "TCK-1014",
+          "TCK-1013",
+          "TCK-1002"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.2,
+        "recall": 1.0,
+        "routing_correct": null
+      },
+      {
+        "id": "Q15",
+        "in_scope": true,
+        "multi_source": true,
+        "retrieved_ids": [
+          "TCK-1008",
+          "KI-004",
+          "TCK-1007",
+          "FAQ-005",
+          "KI-002"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.4,
+        "recall": 1.0,
+        "routing_correct": null
+      },
+      {
+        "id": "Q16",
+        "in_scope": true,
+        "multi_source": true,
+        "retrieved_ids": [
+          "OG-004",
+          "TCK-1010",
+          "TCK-1006",
+          "TCK-1002",
+          "TCK-1011"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.4,
+        "recall": 1.0,
+        "routing_correct": null
+      },
+      {
+        "id": "Q17",
+        "in_scope": true,
+        "multi_source": true,
+        "retrieved_ids": [
+          "TCK-1011",
+          "FAQ-002",
+          "RR-003",
+          "TCK-1002",
+          "RR-005"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.4,
+        "recall": 1.0,
+        "routing_correct": null
+      },
+      {
+        "id": "Q18",
+        "in_scope": false,
+        "multi_source": false,
+        "retrieved_ids": [
+          "FAQ-002",
+          "FAQ-004",
+          "OG-006",
+          "RR-001",
+          "KI-008"
+        ],
+        "refused": true,
+        "exact_refusal": true,
+        "precision": null,
+        "recall": null,
+        "routing_correct": null
+      },
+      {
+        "id": "Q19",
+        "in_scope": false,
+        "multi_source": false,
+        "retrieved_ids": [
+          "SH-003",
+          "SH-001",
+          "SH-002",
+          "TCK-1005",
+          "SH-004"
+        ],
+        "refused": true,
+        "exact_refusal": true,
+        "precision": null,
+        "recall": null,
+        "routing_correct": null
+      },
+      {
+        "id": "Q20",
+        "in_scope": false,
+        "multi_source": false,
+        "retrieved_ids": [
+          "SH-003",
+          "SH-001",
+          "SH-002",
+          "FAQ-002",
+          "TCK-1005"
+        ],
+        "refused": true,
+        "exact_refusal": true,
+        "precision": null,
+        "recall": null,
+        "routing_correct": null
+      }
+    ]
+  },
+  "V2 (single index)": {
+    "summary": {
+      "precision_at_5": 0.30000000000000004,
+      "recall_at_5": 0.925,
+      "coverage": 0.9666666666666667,
+      "routing_accuracy": null,
+      "refusal_accuracy": 1.0,
+      "false_refusals": 0,
+      "questions": 20,
+      "in_scope_questions": 16,
+      "out_of_scope_questions": 4,
+      "multi_source_questions": 6
+    },
+    "questions": [
+      {
+        "id": "Q01",
+        "in_scope": true,
+        "multi_source": false,
+        "retrieved_ids": [
+          "TCK-1014",
+          "RR-002",
+          "TCK-1003",
+          "RR-001",
+          "RR-003"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.4,
+        "recall": 1.0,
+        "routing_correct": null
+      },
+      {
+        "id": "Q02",
+        "in_scope": true,
+        "multi_source": true,
+        "retrieved_ids": [
+          "TCK-1001",
+          "KI-001",
+          "TCK-1009",
+          "KI-005",
+          "KI-006"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.4,
+        "recall": 1.0,
+        "routing_correct": null
+      },
+      {
+        "id": "Q03",
+        "in_scope": true,
+        "multi_source": false,
+        "retrieved_ids": [
+          "SH-002",
+          "TCK-1005",
+          "SH-001",
+          "SH-005",
+          "SH-003"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.2,
+        "recall": 1.0,
+        "routing_correct": null
+      },
+      {
+        "id": "Q04",
+        "in_scope": true,
+        "multi_source": true,
+        "retrieved_ids": [
+          "TCK-1004",
+          "OG-002",
+          "OG-001"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.4,
+        "recall": 1.0,
+        "routing_correct": null
+      },
+      {
+        "id": "Q05",
+        "in_scope": true,
+        "multi_source": false,
+        "retrieved_ids": [
+          "OG-001",
+          "RR-001",
+          "OG-005",
+          "RR-004",
+          "TCK-1011"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.2,
+        "recall": 1.0,
+        "routing_correct": null
+      },
+      {
+        "id": "Q06",
+        "in_scope": true,
+        "multi_source": true,
+        "retrieved_ids": [
+          "TCK-1002",
+          "RR-003",
+          "RR-005",
+          "TCK-1011",
+          "OG-005"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.8,
+        "recall": 0.8,
+        "routing_correct": null
+      },
+      {
+        "id": "Q07",
+        "in_scope": false,
+        "multi_source": false,
+        "retrieved_ids": [
+          "RR-005",
+          "FAQ-004",
+          "RR-003",
+          "FAQ-003",
+          "RR-002"
+        ],
+        "refused": true,
+        "exact_refusal": true,
+        "precision": null,
+        "recall": null,
+        "routing_correct": null
+      },
+      {
+        "id": "Q08",
+        "in_scope": true,
+        "multi_source": false,
+        "retrieved_ids": [
+          "SH-004",
+          "TCK-1010",
+          "FAQ-003",
+          "OG-004"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.2,
+        "recall": 1.0,
+        "routing_correct": null
+      },
+      {
+        "id": "Q09",
+        "in_scope": true,
+        "multi_source": false,
+        "retrieved_ids": [
+          "SH-003",
+          "SH-001",
+          "SH-002",
+          "TCK-1012",
+          "TCK-1005"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.2,
+        "recall": 1.0,
+        "routing_correct": null
+      },
+      {
+        "id": "Q10",
+        "in_scope": true,
+        "multi_source": false,
+        "retrieved_ids": [
+          "KI-005",
+          "KI-001",
+          "TCK-1001",
+          "KI-006",
+          "KI-007"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.0,
+        "recall": 0.0,
+        "routing_correct": null
+      },
+      {
+        "id": "Q11",
+        "in_scope": true,
+        "multi_source": false,
+        "retrieved_ids": [
+          "FAQ-006"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.2,
+        "recall": 1.0,
+        "routing_correct": null
+      },
+      {
+        "id": "Q12",
+        "in_scope": true,
+        "multi_source": false,
+        "retrieved_ids": [
+          "OG-006",
+          "FAQ-002",
+          "FAQ-008"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.2,
+        "recall": 1.0,
+        "routing_correct": null
+      },
+      {
+        "id": "Q13",
+        "in_scope": true,
+        "multi_source": false,
+        "retrieved_ids": [
+          "OG-003",
+          "TCK-1013"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.2,
+        "recall": 1.0,
+        "routing_correct": null
+      },
+      {
+        "id": "Q14",
+        "in_scope": true,
+        "multi_source": false,
+        "retrieved_ids": [
+          "TCK-1007",
+          "TCK-1003",
+          "TCK-1014",
+          "TCK-1002",
+          "RR-005"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.2,
+        "recall": 1.0,
+        "routing_correct": null
+      },
+      {
+        "id": "Q15",
+        "in_scope": true,
+        "multi_source": true,
+        "retrieved_ids": [
+          "TCK-1008",
+          "KI-004",
+          "KI-002"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.4,
+        "recall": 1.0,
+        "routing_correct": null
+      },
+      {
+        "id": "Q16",
+        "in_scope": true,
+        "multi_source": true,
+        "retrieved_ids": [
+          "OG-004",
+          "TCK-1010",
+          "SH-004",
+          "FAQ-003"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.4,
+        "recall": 1.0,
+        "routing_correct": null
+      },
+      {
+        "id": "Q17",
+        "in_scope": true,
+        "multi_source": true,
+        "retrieved_ids": [
+          "TCK-1011",
+          "RR-005",
+          "RR-001",
+          "RR-003",
+          "OG-005"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.4,
+        "recall": 1.0,
+        "routing_correct": null
+      },
+      {
+        "id": "Q18",
+        "in_scope": false,
+        "multi_source": false,
+        "retrieved_ids": [
+          "FAQ-002",
+          "FAQ-004",
+          "RR-003",
+          "RR-002",
+          "RR-001"
+        ],
+        "refused": true,
+        "exact_refusal": true,
+        "precision": null,
+        "recall": null,
+        "routing_correct": null
+      },
+      {
+        "id": "Q19",
+        "in_scope": false,
+        "multi_source": false,
+        "retrieved_ids": [
+          "SH-003",
+          "RR-001",
+          "FAQ-002",
+          "SH-001",
+          "SH-002"
+        ],
+        "refused": true,
+        "exact_refusal": true,
+        "precision": null,
+        "recall": null,
+        "routing_correct": null
+      },
+      {
+        "id": "Q20",
+        "in_scope": false,
+        "multi_source": false,
+        "retrieved_ids": [
+          "SH-003",
+          "SH-002",
+          "FAQ-007",
+          "SH-001",
+          "OG-003"
+        ],
+        "refused": true,
+        "exact_refusal": true,
+        "precision": null,
+        "recall": null,
+        "routing_correct": null
+      }
+    ]
+  },
+  "V2 (multi-index + routing)": {
+    "summary": {
+      "precision_at_5": 0.3125,
+      "recall_at_5": 0.9875,
+      "coverage": 0.9666666666666667,
+      "routing_accuracy": 1.0,
+      "refusal_accuracy": 1.0,
+      "false_refusals": 0,
+      "questions": 20,
+      "in_scope_questions": 16,
+      "out_of_scope_questions": 4,
+      "multi_source_questions": 6
+    },
+    "questions": [
+      {
+        "id": "Q01",
+        "in_scope": true,
+        "multi_source": false,
+        "retrieved_ids": [
+          "RR-002",
+          "RR-001",
+          "RR-003",
+          "SH-005",
+          "SH-003"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.4,
+        "recall": 1.0,
+        "routing_correct": true
+      },
+      {
+        "id": "Q02",
+        "in_scope": true,
+        "multi_source": true,
+        "retrieved_ids": [
+          "TCK-1001",
+          "KI-001",
+          "FAQ-011",
+          "KI-002",
+          "TCK-1011"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.4,
+        "recall": 1.0,
+        "routing_correct": true
+      },
+      {
+        "id": "Q03",
+        "in_scope": true,
+        "multi_source": false,
+        "retrieved_ids": [
+          "SH-002",
+          "SH-001",
+          "SH-004",
+          "RR-003",
+          "RR-004"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.2,
+        "recall": 1.0,
+        "routing_correct": true
+      },
+      {
+        "id": "Q04",
+        "in_scope": true,
+        "multi_source": true,
+        "retrieved_ids": [
+          "TCK-1004",
+          "OG-002",
+          "OG-001",
+          "OG-003",
+          "OG-005"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.4,
+        "recall": 1.0,
+        "routing_correct": true
+      },
+      {
+        "id": "Q05",
+        "in_scope": true,
+        "multi_source": false,
+        "retrieved_ids": [
+          "RR-004",
+          "RR-003",
+          "RR-001",
+          "RR-005",
+          "RR-002"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.2,
+        "recall": 1.0,
+        "routing_correct": true
+      },
+      {
+        "id": "Q06",
+        "in_scope": true,
+        "multi_source": true,
+        "retrieved_ids": [
+          "TCK-1002",
+          "RR-003",
+          "RR-005",
+          "TCK-1011",
+          "OG-005"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.8,
+        "recall": 0.8,
+        "routing_correct": true
+      },
+      {
+        "id": "Q07",
+        "in_scope": false,
+        "multi_source": false,
+        "retrieved_ids": [],
+        "refused": true,
+        "exact_refusal": true,
+        "precision": null,
+        "recall": null,
+        "routing_correct": true
+      },
+      {
+        "id": "Q08",
+        "in_scope": true,
+        "multi_source": false,
+        "retrieved_ids": [
+          "SH-004",
+          "SH-003",
+          "SH-005",
+          "RR-002",
+          "RR-001"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.2,
+        "recall": 1.0,
+        "routing_correct": true
+      },
+      {
+        "id": "Q09",
+        "in_scope": true,
+        "multi_source": false,
+        "retrieved_ids": [
+          "SH-003",
+          "SH-001",
+          "SH-002",
+          "SH-004",
+          "RR-003"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.2,
+        "recall": 1.0,
+        "routing_correct": true
+      },
+      {
+        "id": "Q10",
+        "in_scope": true,
+        "multi_source": false,
+        "retrieved_ids": [
+          "FAQ-010",
+          "KI-005",
+          "KI-001",
+          "FAQ-004",
+          "FAQ-009"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.2,
+        "recall": 1.0,
+        "routing_correct": true
+      },
+      {
+        "id": "Q11",
+        "in_scope": true,
+        "multi_source": false,
+        "retrieved_ids": [
+          "FAQ-006",
+          "KI-006",
+          "FAQ-001",
+          "FAQ-008",
+          "FAQ-007"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.2,
+        "recall": 1.0,
+        "routing_correct": true
+      },
+      {
+        "id": "Q12",
+        "in_scope": true,
+        "multi_source": false,
+        "retrieved_ids": [
+          "OG-006",
+          "OG-003",
+          "OG-001",
+          "OG-005",
+          "OG-002"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.2,
+        "recall": 1.0,
+        "routing_correct": true
+      },
+      {
+        "id": "Q13",
+        "in_scope": true,
+        "multi_source": false,
+        "retrieved_ids": [
+          "OG-003",
+          "OG-005",
+          "RR-003",
+          "OG-004",
+          "RR-004"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.2,
+        "recall": 1.0,
+        "routing_correct": true
+      },
+      {
+        "id": "Q14",
+        "in_scope": true,
+        "multi_source": false,
+        "retrieved_ids": [
+          "TCK-1007",
+          "TCK-1003",
+          "TCK-1014",
+          "TCK-1002",
+          "TCK-1013"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.2,
+        "recall": 1.0,
+        "routing_correct": true
+      },
+      {
+        "id": "Q15",
+        "in_scope": true,
+        "multi_source": true,
+        "retrieved_ids": [
+          "TCK-1008",
+          "KI-004",
+          "TCK-1007",
+          "TCK-1014",
+          "FAQ-005"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.4,
+        "recall": 1.0,
+        "routing_correct": true
+      },
+      {
+        "id": "Q16",
+        "in_scope": true,
+        "multi_source": true,
+        "retrieved_ids": [
+          "OG-004",
+          "TCK-1010",
+          "TCK-1006",
+          "TCK-1002",
+          "TCK-1011"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.4,
+        "recall": 1.0,
+        "routing_correct": true
+      },
+      {
+        "id": "Q17",
+        "in_scope": true,
+        "multi_source": true,
+        "retrieved_ids": [
+          "TCK-1011",
+          "RR-005",
+          "RR-001",
+          "RR-003",
+          "TCK-1002"
+        ],
+        "refused": false,
+        "exact_refusal": false,
+        "precision": 0.4,
+        "recall": 1.0,
+        "routing_correct": true
+      },
+      {
+        "id": "Q18",
+        "in_scope": false,
+        "multi_source": false,
+        "retrieved_ids": [],
+        "refused": true,
+        "exact_refusal": true,
+        "precision": null,
+        "recall": null,
+        "routing_correct": true
+      },
+      {
+        "id": "Q19",
+        "in_scope": false,
+        "multi_source": false,
+        "retrieved_ids": [],
+        "refused": true,
+        "exact_refusal": true,
+        "precision": null,
+        "recall": null,
+        "routing_correct": true
+      },
+      {
+        "id": "Q20",
+        "in_scope": false,
+        "multi_source": false,
+        "retrieved_ids": [],
+        "refused": true,
+        "exact_refusal": true,
+        "precision": null,
+        "recall": null,
+        "routing_correct": true
+      }
+    ]
+  }
+}

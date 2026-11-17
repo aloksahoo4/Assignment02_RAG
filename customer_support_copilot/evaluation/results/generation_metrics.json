@@ -1,0 +1,526 @@
+{
+  "V1 (basic)": {
+    "summary": {
+      "faithfulness_judge": 1.0,
+      "faithfulness_ragas": 1.0,
+      "answer_relevancy": 0.7376142944570706,
+      "context_precision": 0.9333333332812934,
+      "context_recall": 0.9375,
+      "scored_questions": 16
+    },
+    "questions": [
+      {
+        "id": "Q01",
+        "faithfulness_judge": 1.0,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.8302210310054324,
+        "context_precision": 0.999999999975,
+        "context_recall": 1.0,
+        "unsupported_claims": [],
+        "note": null
+      },
+      {
+        "id": "Q02",
+        "faithfulness_judge": 1.0,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.7021780160936971,
+        "context_precision": 0.99999999995,
+        "context_recall": 1.0,
+        "unsupported_claims": [],
+        "note": null
+      },
+      {
+        "id": "Q03",
+        "faithfulness_judge": 1.0,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.9022003509337734,
+        "context_precision": 0.94999999997625,
+        "context_recall": 1.0,
+        "unsupported_claims": [],
+        "note": null
+      },
+      {
+        "id": "Q04",
+        "faithfulness_judge": 1.0,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.7215493745115915,
+        "context_precision": 0.99999999995,
+        "context_recall": 1.0,
+        "unsupported_claims": [],
+        "note": null
+      },
+      {
+        "id": "Q05",
+        "faithfulness_judge": null,
+        "faithfulness_ragas": null,
+        "answer_relevancy": 0.0,
+        "context_precision": 0.8333333332916666,
+        "context_recall": 0.2,
+        "unsupported_claims": [],
+        "note": "refused or empty answer"
+      },
+      {
+        "id": "Q06",
+        "faithfulness_judge": 1.0,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.7613372556417471,
+        "context_precision": 0.9166666666361111,
+        "context_recall": 0.8,
+        "unsupported_claims": [],
+        "note": null
+      },
+      {
+        "id": "Q08",
+        "faithfulness_judge": 1.0,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.9390996531634715,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0,
+        "unsupported_claims": [],
+        "note": null
+      },
+      {
+        "id": "Q09",
+        "faithfulness_judge": 1.0,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.8442036302956778,
+        "context_precision": 0.8333333332916666,
+        "context_recall": 1.0,
+        "unsupported_claims": [],
+        "note": null
+      },
+      {
+        "id": "Q10",
+        "faithfulness_judge": 1.0,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.9252240648522276,
+        "context_precision": 0.99999999995,
+        "context_recall": 1.0,
+        "unsupported_claims": [],
+        "note": null
+      },
+      {
+        "id": "Q11",
+        "faithfulness_judge": 1.0,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.8579450615148271,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0,
+        "unsupported_claims": [],
+        "note": null
+      },
+      {
+        "id": "Q12",
+        "faithfulness_judge": 1.0,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.6318142673105869,
+        "context_precision": 0.699999999965,
+        "context_recall": 1.0,
+        "unsupported_claims": [],
+        "note": null
+      },
+      {
+        "id": "Q13",
+        "faithfulness_judge": 1.0,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.9917327494843282,
+        "context_precision": 0.99999999995,
+        "context_recall": 1.0,
+        "unsupported_claims": [],
+        "note": null
+      },
+      {
+        "id": "Q14",
+        "faithfulness_judge": 1.0,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.6067531188289436,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0,
+        "unsupported_claims": [],
+        "note": null
+      },
+      {
+        "id": "Q15",
+        "faithfulness_judge": 1.0,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.794260064763133,
+        "context_precision": 0.99999999995,
+        "context_recall": 1.0,
+        "unsupported_claims": [],
+        "note": null
+      },
+      {
+        "id": "Q16",
+        "faithfulness_judge": 1.0,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.7213051370828953,
+        "context_precision": 0.99999999995,
+        "context_recall": 1.0,
+        "unsupported_claims": [],
+        "note": null
+      },
+      {
+        "id": "Q17",
+        "faithfulness_judge": 1.0,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.5720049358307974,
+        "context_precision": 0.699999999965,
+        "context_recall": 1.0,
+        "unsupported_claims": [],
+        "note": null
+      }
+    ]
+  },
+  "V2 (single index)": {
+    "summary": {
+      "faithfulness_judge": 0.99375,
+      "faithfulness_ragas": 0.9375,
+      "answer_relevancy": 0.7377047259495643,
+      "context_precision": 0.9359374999473177,
+      "context_recall": 0.95625,
+      "scored_questions": 16
+    },
+    "questions": [
+      {
+        "id": "Q01",
+        "faithfulness_judge": 1.0,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.6511756438867722,
+        "context_precision": 0.999999999975,
+        "context_recall": 1.0,
+        "unsupported_claims": [],
+        "note": null
+      },
+      {
+        "id": "Q02",
+        "faithfulness_judge": 1.0,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.8164589042453039,
+        "context_precision": 0.99999999995,
+        "context_recall": 1.0,
+        "unsupported_claims": [],
+        "note": null
+      },
+      {
+        "id": "Q03",
+        "faithfulness_judge": 1.0,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.8995124663501936,
+        "context_precision": 0.94999999997625,
+        "context_recall": 1.0,
+        "unsupported_claims": [],
+        "note": null
+      },
+      {
+        "id": "Q04",
+        "faithfulness_judge": 1.0,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.7437246141254147,
+        "context_precision": 0.9999999999666667,
+        "context_recall": 1.0,
+        "unsupported_claims": [],
+        "note": null
+      },
+      {
+        "id": "Q05",
+        "faithfulness_judge": 1.0,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.4529955472808432,
+        "context_precision": 0.32499999998375,
+        "context_recall": 1.0,
+        "unsupported_claims": [],
+        "note": null
+      },
+      {
+        "id": "Q06",
+        "faithfulness_judge": 1.0,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.6680226781181062,
+        "context_precision": 0.94999999997625,
+        "context_recall": 0.8,
+        "unsupported_claims": [],
+        "note": null
+      },
+      {
+        "id": "Q08",
+        "faithfulness_judge": 1.0,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.8126416542209366,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0,
+        "unsupported_claims": [],
+        "note": null
+      },
+      {
+        "id": "Q09",
+        "faithfulness_judge": 1.0,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.8433745681619221,
+        "context_precision": 0.7499999999625,
+        "context_recall": 1.0,
+        "unsupported_claims": [],
+        "note": null
+      },
+      {
+        "id": "Q10",
+        "faithfulness_judge": 1.0,
+        "faithfulness_ragas": 0.5,
+        "answer_relevancy": 0.8300642076345408,
+        "context_precision": 0.9999999999,
+        "context_recall": 0.5,
+        "unsupported_claims": [],
+        "note": null
+      },
+      {
+        "id": "Q11",
+        "faithfulness_judge": 1.0,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.8678982261695247,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0,
+        "unsupported_claims": [],
+        "note": null
+      },
+      {
+        "id": "Q12",
+        "faithfulness_judge": 1.0,
+        "faithfulness_ragas": 0.5,
+        "answer_relevancy": 0.6815836720205918,
+        "context_precision": 0.9999999999666667,
+        "context_recall": 1.0,
+        "unsupported_claims": [],
+        "note": null
+      },
+      {
+        "id": "Q13",
+        "faithfulness_judge": 1.0,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.9457429454419103,
+        "context_precision": 0.99999999995,
+        "context_recall": 1.0,
+        "unsupported_claims": [],
+        "note": null
+      },
+      {
+        "id": "Q14",
+        "faithfulness_judge": 1.0,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.6258908136709691,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0,
+        "unsupported_claims": [],
+        "note": null
+      },
+      {
+        "id": "Q15",
+        "faithfulness_judge": 1.0,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.7012729396018496,
+        "context_precision": 0.99999999995,
+        "context_recall": 1.0,
+        "unsupported_claims": [],
+        "note": null
+      },
+      {
+        "id": "Q16",
+        "faithfulness_judge": 0.9,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.6333746431088282,
+        "context_precision": 0.99999999995,
+        "context_recall": 1.0,
+        "unsupported_claims": [
+          "The policy was effective from 1 July 2026."
+        ],
+        "note": null
+      },
+      {
+        "id": "Q17",
+        "faithfulness_judge": 1.0,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.6295420911553216,
+        "context_precision": 0.99999999995,
+        "context_recall": 1.0,
+        "unsupported_claims": [],
+        "note": null
+      }
+    ]
+  },
+  "V2 (multi-index + routing)": {
+    "summary": {
+      "faithfulness_judge": 0.9652777777777778,
+      "faithfulness_ragas": 0.9930555555555556,
+      "answer_relevancy": 0.7405315404321057,
+      "context_precision": 0.9812499999347135,
+      "context_recall": 0.9666666666666667,
+      "scored_questions": 16
+    },
+    "questions": [
+      {
+        "id": "Q01",
+        "faithfulness_judge": 1.0,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.7754165764466442,
+        "context_precision": 0.99999999995,
+        "context_recall": 0.6666666666666666,
+        "unsupported_claims": [],
+        "note": null
+      },
+      {
+        "id": "Q02",
+        "faithfulness_judge": 1.0,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.7755193470463713,
+        "context_precision": 0.99999999995,
+        "context_recall": 1.0,
+        "unsupported_claims": [],
+        "note": null
+      },
+      {
+        "id": "Q03",
+        "faithfulness_judge": 1.0,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.7772561741976488,
+        "context_precision": 0.99999999995,
+        "context_recall": 1.0,
+        "unsupported_claims": [],
+        "note": null
+      },
+      {
+        "id": "Q04",
+        "faithfulness_judge": 0.8888888888888888,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.7732725698199602,
+        "context_precision": 0.9999999999666667,
+        "context_recall": 1.0,
+        "unsupported_claims": [
+          "The address-change policy took effect on 1 July 2026."
+        ],
+        "note": null
+      },
+      {
+        "id": "Q05",
+        "faithfulness_judge": 1.0,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.4272950833174136,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0,
+        "unsupported_claims": [],
+        "note": null
+      },
+      {
+        "id": "Q06",
+        "faithfulness_judge": 1.0,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.7426262424449321,
+        "context_precision": 0.94999999997625,
+        "context_recall": 0.8,
+        "unsupported_claims": [],
+        "note": null
+      },
+      {
+        "id": "Q08",
+        "faithfulness_judge": 0.6666666666666666,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.7467427889937973,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0,
+        "unsupported_claims": [
+          "The Cash on Delivery policy is effective from 1 July 2026."
+        ],
+        "note": null
+      },
+      {
+        "id": "Q09",
+        "faithfulness_judge": 1.0,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.8421653908902433,
+        "context_precision": 0.7499999999625,
+        "context_recall": 1.0,
+        "unsupported_claims": [],
+        "note": null
+      },
+      {
+        "id": "Q10",
+        "faithfulness_judge": 1.0,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.9252008671887495,
+        "context_precision": 0.99999999995,
+        "context_recall": 1.0,
+        "unsupported_claims": [],
+        "note": null
+      },
+      {
+        "id": "Q11",
+        "faithfulness_judge": 1.0,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.8553990983633449,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0,
+        "unsupported_claims": [],
+        "note": null
+      },
+      {
+        "id": "Q12",
+        "faithfulness_judge": 1.0,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.6361647219112251,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0,
+        "unsupported_claims": [],
+        "note": null
+      },
+      {
+        "id": "Q13",
+        "faithfulness_judge": 1.0,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.9395700414887865,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0,
+        "unsupported_claims": [],
+        "note": null
+      },
+      {
+        "id": "Q14",
+        "faithfulness_judge": 1.0,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.6422525544527417,
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0,
+        "unsupported_claims": [],
+        "note": null
+      },
+      {
+        "id": "Q15",
+        "faithfulness_judge": 0.8888888888888888,
+        "faithfulness_ragas": 0.8888888888888888,
+        "answer_relevancy": 0.6316963392310738,
+        "context_precision": 0.99999999995,
+        "context_recall": 1.0,
+        "unsupported_claims": [
+          "That customer's case was resolved on 1 September 2026."
+        ],
+        "note": null
+      },
+      {
+        "id": "Q16",
+        "faithfulness_judge": 1.0,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.7012067715405289,
+        "context_precision": 0.99999999995,
+        "context_recall": 1.0,
+        "unsupported_claims": [],
+        "note": null
+      },
+      {
+        "id": "Q17",
+        "faithfulness_judge": 1.0,
+        "faithfulness_ragas": 1.0,
+        "answer_relevancy": 0.6567200795802299,
+        "context_precision": 0.99999999995,
+        "context_recall": 1.0,
+        "unsupported_claims": [],
+        "note": null
+      }
+    ]
+  }
+}

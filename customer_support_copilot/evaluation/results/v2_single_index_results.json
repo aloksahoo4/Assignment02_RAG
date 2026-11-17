@@ -1,0 +1,457 @@
+{
+  "version": "V2 (single index)",
+  "model": "gpt-6-luna",
+  "top_k": 5,
+  "results": [
+    {
+      "id": "Q01",
+      "question": "Can I return an opened laptop on day 8 if I have the original box and all accessories?",
+      "answer": "Yes. Under the return policy effective 1 July 2026, an opened laptop can be returned within 10 days of delivery if it is in good condition, undamaged, and includes the original box, all accessories, manuals, and the invoice. [RR-001] [RR-002]",
+      "retrieved_ids": [
+        "TCK-1014",
+        "RR-002",
+        "TCK-1003",
+        "RR-001",
+        "RR-003"
+      ],
+      "sources": [
+        "RR-002",
+        "RR-001"
+      ],
+      "routing": null,
+      "contexts": [
+        "[TCK-1014] Opened laptop returned without charger (date: 2026-09-18)\nCustomer issue: Customer returned an opened Dell XPS 13 on day 8, but the charger was missing from the box. Resolution: Return was rejected at quality check because opened laptops must include all accessories, as per RR-002. Customer sent the charger and a second pickup was done. Refund issued after the quality check passed. Status: Resolved.",
+        "[RR-002] Returning opened products (date: 2026-07-01)\nOpened laptops and accessories can be returned within 10 days of delivery if they are in good condition, have no physical damage, and are returned with the original box, all accessories, manuals and the invoice. Opened products with missing accessories or physical damage will not be accepted. Opened mobile phones cannot be returned for change of mind.",
+        "[TCK-1003] Customer wants to return opened laptop after a week (date: 2025-09-18)\nCustomer issue: Customer opened an HP Pavilion 15 and wanted to return it after using it for a week. Resolution: Informed the customer that laptops can be returned within 7 days of delivery. The request was on day 6, so the return was approved. Status: Resolved.",
+        "[RR-001] Return window for all products (date: 2026-07-01)\nMost products bought from Dandes Electronics can be returned within 10 days of delivery. Mobile phones are the exception: phones are eligible for replacement only, within 7 days of delivery, and only if they are defective or damaged. After the return window ends, customers must use the manufacturer warranty. This policy is effective from 1 July 2026 and replaces all earlier return windows.",
+        "[RR-003] Damaged or defective products (date: 2026-07-01)\nIf a product arrives damaged or defective, the customer must report it within 48 hours of delivery using the Report a Problem option on the Orders page. Photos of the product and box, and an unboxing video if available, are required. After a pickup and quality check, the customer can choose a replacement or a full refund. For mobile phones, a refund is given only if a replacement unit is not available."
+      ],
+      "error": null
+    },
+    {
+      "id": "Q02",
+      "question": "My Galaxy Buds3 Pro left earbud won't connect. Is this a known issue, and has the same problem been resolved for another customer? What fixed it?",
+      "answer": "Yes. The issue is documented for Galaxy Buds3 Pro when pairing with a new phone [KI-001]. Another customer’s left earbud issue was resolved on 4 August 2026: the earbuds were still paired with the old phone, and resetting them and pairing again as a new device fixed it [TCK-1001].\n\nTry this: put both earbuds in the case, close the lid for 10 seconds, then reset them in the Galaxy Wearable app or hold both touchpads for 7 seconds. Pair them again as a new device [KI-001].",
+      "retrieved_ids": [
+        "TCK-1001",
+        "KI-001",
+        "TCK-1009",
+        "KI-005",
+        "KI-006"
+      ],
+      "sources": [
+        "TCK-1001",
+        "KI-001"
+      ],
+      "routing": null,
+      "contexts": [
+        "[TCK-1001] Left earbud of Galaxy Buds3 Pro not connecting (date: 2026-08-04)\nCustomer issue: After switching to a new phone, the left Galaxy Buds3 Pro earbud did not connect. Root cause: Earbuds were still paired with the old phone. Resolution: Guided the customer to reset the earbuds in the case and pair again as a new device, as per KI-001. Both earbuds worked after the reset. Status: Resolved.",
+        "[KI-001] Galaxy Buds3 Pro: one earbud not connecting (date: 2026-07-01)\nCustomers report that one Galaxy Buds3 Pro earbud, usually the left one, does not connect after pairing with a new phone. Fix: put both earbuds in the case, close the lid for 10 seconds, then reset the earbuds from the Galaxy Wearable app or by holding both touchpads for 7 seconds. Pair again as a new device. If the issue continues after reset, treat it as defective under RR-003 within 48 hours of delivery, or as a warranty claim after that.",
+        "[TCK-1009] Dell XPS 13 Wi-Fi drops after sleep (date: 2026-09-03)\nCustomer issue: Wi-Fi did not reconnect after the Dell XPS 13 woke from sleep. Resolution: Guided the customer to update the Wi-Fi driver and BIOS through Dell SupportAssist, as per KI-006. Issue fixed after restart. Status: Resolved.",
+        "[KI-005] Sony WH-1000XM5: audio drops with two devices connected (date: 2026-07-01)\nSome customers report short audio drops when the Sony WH-1000XM5 is connected to two devices with multipoint. Fix: update the headphones' firmware from the Sony Headphones Connect app, and turn off multipoint if the customer only uses one device.",
+        "[KI-006] Dell XPS 13: Wi-Fi disconnects after sleep (date: 2026-07-01)\nSome Dell XPS 13 customers report that Wi-Fi does not reconnect after the laptop wakes from sleep. Fix: install the latest Wi-Fi driver and BIOS update using Dell SupportAssist, then restart. If the problem continues, raise a Dell warranty claim."
+      ],
+      "error": null
+    },
+    {
+      "id": "Q03",
+      "question": "How long does delivery take to a remote pincode, and is it free?",
+      "answer": "Delivery to a remote pincode takes 5 to 9 business days. Normal delivery charges apply, so orders of Rs 499 or more are free. [SH-002]",
+      "retrieved_ids": [
+        "SH-002",
+        "TCK-1005",
+        "SH-001",
+        "SH-005",
+        "SH-003"
+      ],
+      "sources": [
+        "SH-002"
+      ],
+      "routing": null,
+      "contexts": [
+        "[SH-002] Delivery to remote pincodes (date: 2026-07-01)\nRemote pincodes include parts of the North-East states, Jammu and Kashmir, Ladakh, the Andaman and Nicobar Islands, Lakshadweep and some hill areas. Delivery to remote pincodes takes 5 to 9 business days. The normal delivery charges apply, so orders of Rs 499 and above are still free. Express delivery is not available for remote pincodes.",
+        "[TCK-1005] Delivery to Port Blair taking too long (date: 2026-08-22)\nCustomer issue: Customer in Port Blair complained that a Logitech MX Master 3S order had not arrived after 5 days. Root cause: Port Blair is a remote pincode. Resolution: Explained that remote pincodes take 5 to 9 business days as per SH-002. The order was delivered on day 7. Status: Resolved.",
+        "[SH-001] Standard delivery times and charges (date: 2026-07-01)\nStandard delivery takes 2 to 4 business days in metro cities and 3 to 6 business days in other serviceable pincodes. Delivery is free for orders of Rs 499 and above. Orders below Rs 499 have a delivery charge of Rs 49.",
+        "[SH-005] Failed delivery attempts (date: 2026-07-01)\nThe courier makes up to 3 delivery attempts. If all 3 attempts fail, or the customer refuses the package, the order is returned to Dandes Electronics. For prepaid orders, a full refund is issued once the package reaches the warehouse. Cash on Delivery orders are simply cancelled.",
+        "[SH-003] Express delivery (date: 2026-07-01)\nExpress delivery is available in select metro cities: Bengaluru, Chennai, Delhi NCR, Hyderabad, Mumbai and Pune. Orders placed before 2 PM are delivered the next day. Express delivery costs Rs 149 per order, even for orders above Rs 499. Express delivery is not available for Cash on Delivery orders."
+      ],
+      "error": null
+    },
+    {
+      "id": "Q04",
+      "question": "A customer wants to change the address after the order shipped. What is the official process, and do we have a resolved case like this?",
+      "answer": "Under the address-change policy dated 1 July 2026, the address cannot be changed after the order ships. The customer can ask the courier to reschedule delivery to the same address, or refuse delivery and place a new order with the correct address. A refusal refund follows policy SH-005. [OG-002]\n\nYes. In a resolved case dated 20 August 2026, the customer refused the shipped order, placed a new order with the correct address, and received a refund for the first order after it reached the warehouse. [TCK-1004]",
+      "retrieved_ids": [
+        "TCK-1004",
+        "OG-002",
+        "OG-001"
+      ],
+      "sources": [
+        "TCK-1004",
+        "OG-002"
+      ],
+      "routing": null,
+      "contexts": [
+        "[TCK-1004] Change address after order shipped (date: 2026-08-20)\nCustomer issue: Customer moved to a new flat and asked to change the delivery address for a Sony WH-1000XM5 order that was already shipped. Resolution: Explained that the address cannot be changed after shipping, as per OG-002. Customer chose to refuse the delivery and placed a new order with the new address. Refund for the first order was issued after the package reached the warehouse, as per SH-005. Status: Resolved.",
+        "[OG-002] How to change the delivery address (date: 2026-07-01)\nThe delivery address can be changed from the Orders page only before the order is shipped. After shipping, the address cannot be changed by Dandes Electronics or by the support team. The customer has two options: ask the courier to reschedule delivery to the same address, or refuse the delivery and place a new order with the correct address. Refusal refunds follow policy SH-005.",
+        "[OG-001] How to cancel an order (date: 2026-07-01)\nAn order can be cancelled from the Orders page any time before it is shipped. Prepaid orders are refunded as per policy RR-004. Once an order is shipped, it cannot be cancelled. The customer can refuse the delivery instead, and the refund is processed as per policy SH-005."
+      ],
+      "error": null
+    },
+    {
+      "id": "Q05",
+      "question": "What does policy RR-004 say?",
+      "answer": "Under RR-004, refunds begin after the returned product passes the quality check. UPI and wallet refunds take 1–3 business days; credit card, debit card, and net banking refunds take 5–7 business days. Cash on Delivery refunds go to the customer’s bank account within 5–7 business days after bank details are added on the Orders page. EMI refunds go to the card, and the bank closes the EMI plan. [RR-004]",
+      "retrieved_ids": [
+        "OG-001",
+        "RR-001",
+        "OG-005",
+        "RR-004",
+        "TCK-1011"
+      ],
+      "sources": [
+        "RR-004"
+      ],
+      "routing": null,
+      "contexts": [
+        "[OG-001] How to cancel an order (date: 2026-07-01)\nAn order can be cancelled from the Orders page any time before it is shipped. Prepaid orders are refunded as per policy RR-004. Once an order is shipped, it cannot be cancelled. The customer can refuse the delivery instead, and the refund is processed as per policy SH-005.",
+        "[RR-001] Return window for all products (date: 2026-07-01)\nMost products bought from Dandes Electronics can be returned within 10 days of delivery. Mobile phones are the exception: phones are eligible for replacement only, within 7 days of delivery, and only if they are defective or damaged. After the return window ends, customers must use the manufacturer warranty. This policy is effective from 1 July 2026 and replaces all earlier return windows.",
+        "[OG-005] How to report a damaged, defective or wrong item (date: 2026-07-01)\nTo report a damaged, defective or wrong item, the customer opens the order on the Orders page and selects Report a Problem within 48 hours of delivery. The customer uploads photos of the product, the box and the shipping label, and an unboxing video if available. A pickup is scheduled within 2 business days. After the quality check, a replacement or refund is processed as per policies RR-003 and RR-005.",
+        "[RR-004] Refund timelines by payment method (date: 2026-07-01)\nRefunds start after the returned product passes the quality check. UPI and wallet refunds take 1 to 3 business days. Credit and debit card refunds take 5 to 7 business days. Net banking refunds take 5 to 7 business days. Cash on Delivery orders are refunded to the customer's bank account within 5 to 7 business days after the customer adds bank details on the Orders page. EMI orders are refunded to the card, and the bank closes the EMI plan.",
+        "[TCK-1011] Defective Galaxy S25 replaced, replacement also defective (date: 2026-09-09)\nCustomer issue: Galaxy S25 had a faulty speaker. A replacement was sent, but the replacement also had a display flicker. Resolution: As per RR-005, a product can be replaced only once, and if the replacement is also defective the customer gets a full refund. Full refund issued by UPI within 2 business days, as per RR-004. Status: Resolved."
+      ],
+      "error": null
+    },
+    {
+      "id": "Q06",
+      "question": "A customer received a damaged phone and wants a refund instead of a replacement. What is the official process, and do we have a previous resolved case where a refund was issued?",
+      "answer": "Under the policy dated 1 July 2026, report the damage through **Orders → Report a Problem within 48 hours of delivery**. Provide photos of the phone and box, plus an unboxing video if available; the reporting guidance also asks for a photo of the shipping label. A pickup is scheduled, and after the quality check, the remedy is processed under the damaged-item rules. For a mobile phone, a refund is issued only if a replacement unit is unavailable. [RR-003] [OG-005]\n\nYes. In a resolved case dated **11 August 2026**, an iPhone 16 arrived with a cracked screen. After the customer reported it within 48 hours and the pickup quality check confirmed the damage, a replacement in the same colour was unavailable, so a full refund was issued to the customer’s credit card. [TCK-1002]",
+      "retrieved_ids": [
+        "TCK-1002",
+        "RR-003",
+        "RR-005",
+        "TCK-1011",
+        "OG-005"
+      ],
+      "sources": [
+        "TCK-1002",
+        "RR-003",
+        "OG-005"
+      ],
+      "routing": null,
+      "contexts": [
+        "[TCK-1002] iPhone 16 arrived with a cracked screen, customer wants refund (date: 2026-08-11)\nCustomer issue: iPhone 16 delivered with a cracked screen. Customer did not want a replacement and asked for a refund. Root cause: Transit damage. Resolution: Customer reported it within 48 hours with photos and an unboxing video. Pickup was done and the quality check confirmed the damage. As per RR-003, phones get a replacement first. A replacement unit was not available in the same colour, so a full refund was issued to the credit card as per RR-004. Status: Resolved.",
+        "[RR-003] Damaged or defective products (date: 2026-07-01)\nIf a product arrives damaged or defective, the customer must report it within 48 hours of delivery using the Report a Problem option on the Orders page. Photos of the product and box, and an unboxing video if available, are required. After a pickup and quality check, the customer can choose a replacement or a full refund. For mobile phones, a refund is given only if a replacement unit is not available.",
+        "[RR-005] Replacement vs refund rules (date: 2026-07-01)\nA replacement is given for the same model and colour. If the same model is out of stock, the customer can choose a refund or a different colour of the same model. Price differences are not adjusted. A product can be replaced only once per order. If the replacement unit is also defective, the customer gets a full refund.",
+        "[TCK-1011] Defective Galaxy S25 replaced, replacement also defective (date: 2026-09-09)\nCustomer issue: Galaxy S25 had a faulty speaker. A replacement was sent, but the replacement also had a display flicker. Resolution: As per RR-005, a product can be replaced only once, and if the replacement is also defective the customer gets a full refund. Full refund issued by UPI within 2 business days, as per RR-004. Status: Resolved.",
+        "[OG-005] How to report a damaged, defective or wrong item (date: 2026-07-01)\nTo report a damaged, defective or wrong item, the customer opens the order on the Orders page and selects Report a Problem within 48 hours of delivery. The customer uploads photos of the product, the box and the shipping label, and an unboxing video if available. A pickup is scheduled within 2 business days. After the quality check, a replacement or refund is processed as per policies RR-003 and RR-005."
+      ],
+      "error": null
+    },
+    {
+      "id": "Q07",
+      "question": "Do you sell refrigerators?",
+      "answer": "I don't know based on the available information.",
+      "retrieved_ids": [
+        "RR-005",
+        "FAQ-004",
+        "RR-003",
+        "FAQ-003",
+        "RR-002"
+      ],
+      "sources": [],
+      "routing": null,
+      "contexts": [
+        "[RR-005] Replacement vs refund rules (date: 2026-07-01)\nA replacement is given for the same model and colour. If the same model is out of stock, the customer can choose a refund or a different colour of the same model. Price differences are not adjusted. A product can be replaced only once per order. If the replacement unit is also defective, the customer gets a full refund.",
+        "[FAQ-004] Can I exchange my old phone when buying a Google Pixel 9? (date: 2026-07-01)\nYes. Dandes Electronics offers an exchange programme on the Google Pixel 9. Enter the old phone's brand, model and condition at checkout to see the exchange value. The old phone is collected at the time of delivery. If the old phone's condition does not match what was entered, the exchange value may be reduced or the exchange may be cancelled.",
+        "[RR-003] Damaged or defective products (date: 2026-07-01)\nIf a product arrives damaged or defective, the customer must report it within 48 hours of delivery using the Report a Problem option on the Orders page. Photos of the product and box, and an unboxing video if available, are required. After a pickup and quality check, the customer can choose a replacement or a full refund. For mobile phones, a refund is given only if a replacement unit is not available.",
+        "[FAQ-003] What EMI options are available for the OnePlus 13? (date: 2026-07-01)\nThe OnePlus 13 can be bought on No-Cost EMI for 3 or 6 months with credit cards from major banks. Standard EMI is available for 9 and 12 months with interest charged by the bank. Debit card EMI is available for select banks. EMI options are shown on the payment page at checkout.",
+        "[RR-002] Returning opened products (date: 2026-07-01)\nOpened laptops and accessories can be returned within 10 days of delivery if they are in good condition, have no physical damage, and are returned with the original box, all accessories, manuals and the invoice. Opened products with missing accessories or physical damage will not be accepted. Opened mobile phones cannot be returned for change of mind."
+      ],
+      "error": null
+    },
+    {
+      "id": "Q08",
+      "question": "Can I use Cash on Delivery for a Rs 60,000 laptop?",
+      "answer": "Cash on Delivery isn’t available for a Rs 60,000 order; orders above Rs 50,000 must be paid online. [SH-004]",
+      "retrieved_ids": [
+        "SH-004",
+        "TCK-1010",
+        "FAQ-003",
+        "OG-004"
+      ],
+      "sources": [
+        "SH-004"
+      ],
+      "routing": null,
+      "contexts": [
+        "[SH-004] Cash on Delivery limits (date: 2026-07-01)\nCash on Delivery is available for orders up to Rs 50,000. Orders above Rs 50,000 must be paid online. Cash on Delivery is not available for remote pincodes or for express delivery.",
+        "[TCK-1010] Payment failed but money deducted for OnePlus 13 (date: 2026-09-05)\nCustomer issue: UPI payment for a OnePlus 13 failed but Rs 69,999 was deducted. Resolution: Confirmed no order was created. Shared the transaction reference and informed the customer that the bank reverses failed payments within 5 to 7 business days, as per OG-004. Amount was reversed in 3 days. Status: Resolved.",
+        "[FAQ-003] What EMI options are available for the OnePlus 13? (date: 2026-07-01)\nThe OnePlus 13 can be bought on No-Cost EMI for 3 or 6 months with credit cards from major banks. Standard EMI is available for 9 and 12 months with interest charged by the bank. Debit card EMI is available for select banks. EMI options are shown on the payment page at checkout.",
+        "[OG-004] Payment failed but money deducted (date: 2026-07-01)\nIf a payment fails but money is deducted from the customer's account, the bank usually reverses it within 5 to 7 business days. No order is created for a failed payment. The support team should check the payment status and share the transaction reference with the customer if the reversal takes longer."
+      ],
+      "error": null
+    },
+    {
+      "id": "Q09",
+      "question": "Which cities have express delivery, how fast is it and what does it cost?",
+      "answer": "Express delivery is available in Bengaluru, Chennai, Delhi NCR, Hyderabad, Mumbai, and Pune. Orders placed before 2 PM are delivered the next day. It costs Rs 149 per order, including for orders above Rs 499. [SH-003]",
+      "retrieved_ids": [
+        "SH-003",
+        "SH-001",
+        "SH-002",
+        "TCK-1012",
+        "TCK-1005"
+      ],
+      "sources": [
+        "SH-003"
+      ],
+      "routing": null,
+      "contexts": [
+        "[SH-003] Express delivery (date: 2026-07-01)\nExpress delivery is available in select metro cities: Bengaluru, Chennai, Delhi NCR, Hyderabad, Mumbai and Pune. Orders placed before 2 PM are delivered the next day. Express delivery costs Rs 149 per order, even for orders above Rs 499. Express delivery is not available for Cash on Delivery orders.",
+        "[SH-001] Standard delivery times and charges (date: 2026-07-01)\nStandard delivery takes 2 to 4 business days in metro cities and 3 to 6 business days in other serviceable pincodes. Delivery is free for orders of Rs 499 and above. Orders below Rs 499 have a delivery charge of Rs 49.",
+        "[SH-002] Delivery to remote pincodes (date: 2026-07-01)\nRemote pincodes include parts of the North-East states, Jammu and Kashmir, Ladakh, the Andaman and Nicobar Islands, Lakshadweep and some hill areas. Delivery to remote pincodes takes 5 to 9 business days. The normal delivery charges apply, so orders of Rs 499 and above are still free. Express delivery is not available for remote pincodes.",
+        "[TCK-1012] Express delivery not available at checkout (date: 2026-09-12)\nCustomer issue: Customer in Bengaluru could not select express delivery for a Pixel 9 order. Root cause: Customer had chosen Cash on Delivery. Resolution: Explained that express delivery is not available for Cash on Delivery orders, as per SH-003. Customer paid online and chose express delivery. Status: Resolved.",
+        "[TCK-1005] Delivery to Port Blair taking too long (date: 2026-08-22)\nCustomer issue: Customer in Port Blair complained that a Logitech MX Master 3S order had not arrived after 5 days. Root cause: Port Blair is a remote pincode. Resolution: Explained that remote pincodes take 5 to 9 business days as per SH-002. The order was delivered on day 7. Status: Resolved."
+      ],
+      "error": null
+    },
+    {
+      "id": "Q10",
+      "question": "Can the Sony WH-1000XM5 stay connected to my laptop and my phone at the same time?",
+      "answer": "Yes. The Sony WH-1000XM5 supports connecting to your laptop and phone at the same time using multipoint. If you experience brief audio drops, update the headphones’ firmware in the Sony Headphones Connect app. [KI-005]",
+      "retrieved_ids": [
+        "KI-005",
+        "KI-001",
+        "TCK-1001",
+        "KI-006",
+        "KI-007"
+      ],
+      "sources": [
+        "KI-005"
+      ],
+      "routing": null,
+      "contexts": [
+        "[KI-005] Sony WH-1000XM5: audio drops with two devices connected (date: 2026-07-01)\nSome customers report short audio drops when the Sony WH-1000XM5 is connected to two devices with multipoint. Fix: update the headphones' firmware from the Sony Headphones Connect app, and turn off multipoint if the customer only uses one device.",
+        "[KI-001] Galaxy Buds3 Pro: one earbud not connecting (date: 2026-07-01)\nCustomers report that one Galaxy Buds3 Pro earbud, usually the left one, does not connect after pairing with a new phone. Fix: put both earbuds in the case, close the lid for 10 seconds, then reset the earbuds from the Galaxy Wearable app or by holding both touchpads for 7 seconds. Pair again as a new device. If the issue continues after reset, treat it as defective under RR-003 within 48 hours of delivery, or as a warranty claim after that.",
+        "[TCK-1001] Left earbud of Galaxy Buds3 Pro not connecting (date: 2026-08-04)\nCustomer issue: After switching to a new phone, the left Galaxy Buds3 Pro earbud did not connect. Root cause: Earbuds were still paired with the old phone. Resolution: Guided the customer to reset the earbuds in the case and pair again as a new device, as per KI-001. Both earbuds worked after the reset. Status: Resolved.",
+        "[KI-006] Dell XPS 13: Wi-Fi disconnects after sleep (date: 2026-07-01)\nSome Dell XPS 13 customers report that Wi-Fi does not reconnect after the laptop wakes from sleep. Fix: install the latest Wi-Fi driver and BIOS update using Dell SupportAssist, then restart. If the problem continues, raise a Dell warranty claim.",
+        "[KI-007] Logitech MX Master 3S: cursor lag on Bluetooth (date: 2026-07-01)\nCustomers using the Logitech MX Master 3S over Bluetooth on a laptop sometimes see cursor lag. Fix: use the Logi Bolt USB receiver included in the box instead of Bluetooth, and keep the receiver away from USB 3.0 hubs."
+      ],
+      "error": null
+    },
+    {
+      "id": "Q11",
+      "question": "Does the Dell XPS 13 come with Windows and Microsoft Office?",
+      "answer": "The Dell XPS 13 comes with Windows 11 Home pre-installed and activated. Microsoft Office is included only if you buy the laptop with the Office bundle offer. [FAQ-006]",
+      "retrieved_ids": [
+        "FAQ-006"
+      ],
+      "sources": [
+        "FAQ-006"
+      ],
+      "routing": null,
+      "contexts": [
+        "[FAQ-006] Does the Dell XPS 13 come with Windows and Microsoft Office? (date: 2026-07-01)\nThe Dell XPS 13 units sold by Dandes Electronics come with Windows 11 Home pre-installed and activated. Microsoft Office is not included unless the customer buys the laptop with the Office bundle offer."
+      ],
+      "error": null
+    },
+    {
+      "id": "Q12",
+      "question": "How do I raise a warranty claim once the return window is over?",
+      "answer": "Under the guidance dated 1 July 2026, once the return window ends, download your invoice from the Orders page and take it to the manufacturer’s authorised service centre. If your product has an onsite warranty, you can book an onsite visit instead. Dandes Electronics does not repair products directly. [OG-006]",
+      "retrieved_ids": [
+        "OG-006",
+        "FAQ-002",
+        "FAQ-008"
+      ],
+      "sources": [
+        "OG-006"
+      ],
+      "routing": null,
+      "contexts": [
+        "[OG-006] How to raise a warranty claim (date: 2026-07-01)\nAfter the return window ends, defects are covered by the manufacturer warranty. The customer can download the invoice from the Orders page and visit the brand's authorised service centre, or book an onsite visit if the product has onsite warranty, such as the Lenovo ThinkPad E14. Dandes Electronics does not repair products directly.",
+        "[FAQ-002] Is the Samsung Galaxy S25 sold by Dandes Electronics the India version? (date: 2026-07-01)\nYes. Every Samsung Galaxy S25 sold by Dandes Electronics is the official India version. It comes with a 1-year manufacturer warranty that can be claimed at any authorised Samsung service centre in India. Keep the Dandes Electronics invoice, as it is needed for warranty claims.",
+        "[FAQ-008] What warranty comes with the Lenovo ThinkPad E14? (date: 2026-07-01)\nThe Lenovo ThinkPad E14 sold by Dandes Electronics comes with a 1-year Lenovo onsite warranty. A Lenovo engineer visits the customer's address for hardware repairs. Warranty is registered using the laptop's serial number and the Dandes Electronics invoice."
+      ],
+      "error": null
+    },
+    {
+      "id": "Q13",
+      "question": "How can I track my order, and how long do tracking updates take to appear?",
+      "answer": "You can track your order from the Orders page or by using the tracking link sent by SMS and email after shipping. Updates can take up to 24 hours to appear after shipment. [OG-003]",
+      "retrieved_ids": [
+        "OG-003",
+        "TCK-1013"
+      ],
+      "sources": [
+        "OG-003"
+      ],
+      "routing": null,
+      "contexts": [
+        "[OG-003] How to track an order (date: 2026-07-01)\nCustomers can track an order from the Orders page or with the tracking link sent by SMS and email after shipping. Tracking updates can take up to 24 hours to appear after the order is shipped. If tracking has not updated for more than 3 business days, the support team should raise a courier escalation.",
+        "[TCK-1013] Tracking not updated for 4 days (date: 2026-09-15)\nCustomer issue: Tracking for a Lenovo ThinkPad E14 order had not updated for 4 business days. Resolution: Raised a courier escalation, as per OG-003. Courier found the package at a hub and delivered it within 2 days. Status: Resolved."
+      ],
+      "error": null
+    },
+    {
+      "id": "Q14",
+      "question": "Do we have a past case where a customer received the wrong colour laptop? How was it resolved?",
+      "answer": "Yes. In a case dated 27 August 2026, a customer who ordered a Midnight MacBook Air M3 received a Silver one. They reported it within 48 hours, and because the Midnight model was in stock, a replacement was sent after the original was picked up. [TCK-1007]",
+      "retrieved_ids": [
+        "TCK-1007",
+        "TCK-1003",
+        "TCK-1014",
+        "TCK-1002",
+        "RR-005"
+      ],
+      "sources": [
+        "TCK-1007"
+      ],
+      "routing": null,
+      "contexts": [
+        "[TCK-1007] Wrong colour MacBook Air M3 delivered (date: 2026-08-27)\nCustomer issue: Customer ordered a Midnight MacBook Air M3 but received a Silver one. Resolution: Customer reported it within 48 hours through Report a Problem, as per OG-005. The Midnight colour was in stock, so a replacement was sent after pickup, as per RR-005. Status: Resolved.",
+        "[TCK-1003] Customer wants to return opened laptop after a week (date: 2025-09-18)\nCustomer issue: Customer opened an HP Pavilion 15 and wanted to return it after using it for a week. Resolution: Informed the customer that laptops can be returned within 7 days of delivery. The request was on day 6, so the return was approved. Status: Resolved.",
+        "[TCK-1014] Opened laptop returned without charger (date: 2026-09-18)\nCustomer issue: Customer returned an opened Dell XPS 13 on day 8, but the charger was missing from the box. Resolution: Return was rejected at quality check because opened laptops must include all accessories, as per RR-002. Customer sent the charger and a second pickup was done. Refund issued after the quality check passed. Status: Resolved.",
+        "[TCK-1002] iPhone 16 arrived with a cracked screen, customer wants refund (date: 2026-08-11)\nCustomer issue: iPhone 16 delivered with a cracked screen. Customer did not want a replacement and asked for a refund. Root cause: Transit damage. Resolution: Customer reported it within 48 hours with photos and an unboxing video. Pickup was done and the quality check confirmed the damage. As per RR-003, phones get a replacement first. A replacement unit was not available in the same colour, so a full refund was issued to the credit card as per RR-004. Status: Resolved.",
+        "[RR-005] Replacement vs refund rules (date: 2026-07-01)\nA replacement is given for the same model and colour. If the same model is out of stock, the customer can choose a refund or a different colour of the same model. Price differences are not adjusted. A product can be replaced only once per order. If the replacement unit is also defective, the customer gets a full refund."
+      ],
+      "error": null
+    },
+    {
+      "id": "Q15",
+      "question": "My MacBook Air M3 shows Not Charging. Is this a known issue, and has it been resolved for another customer?",
+      "answer": "Yes. This is a known issue when a MacBook Air M3 is used with a low-wattage charger: a 20W phone charger may show “Not Charging,” especially while the laptop is in use. Use the supplied Apple charger or a USB-C Power Delivery charger rated at 30W or more. [KI-004]\n\nAnother customer’s issue was resolved after switching from a 20W charger to a suitable charger. [TCK-1008]",
+      "retrieved_ids": [
+        "TCK-1008",
+        "KI-004",
+        "KI-002"
+      ],
+      "sources": [
+        "TCK-1008",
+        "KI-004"
+      ],
+      "routing": null,
+      "contexts": [
+        "[TCK-1008] MacBook Air M3 not charging (date: 2026-09-01)\nCustomer issue: MacBook Air M3 showed Not Charging. Root cause: Customer was using a 20W phone charger. Resolution: Advised using the original Apple charger or a 30W or higher USB-C PD charger, as per KI-004. Laptop charged normally. Status: Resolved.",
+        "[KI-004] MacBook Air M3: not charging with a low-wattage charger (date: 2026-07-01)\nCustomers using a phone charger with the MacBook Air M3 report that it charges very slowly or shows Not Charging. Fix: use the Apple charger supplied in the box or a USB-C Power Delivery charger of 30W or more. A 20W phone charger, such as the Anker 20W USB-C Charger, is not enough to charge the laptop while it is in use.",
+        "[KI-002] AirPods Pro 2: one earbud not charging in the case (date: 2026-07-01)\nSome customers report that one AirPods Pro 2 earbud does not charge in the case. The usual cause is dirt on the charging contacts. Fix: clean the earbud and case contacts gently with a dry cotton swab and check that the earbud sits fully in the case. If it still does not charge, raise an Apple warranty claim."
+      ],
+      "error": null
+    },
+    {
+      "id": "Q16",
+      "question": "A customer's payment failed but the money was deducted. What should support do, and do we have a resolved case like this?",
+      "answer": "Under the policy effective 1 July 2026, support should check the payment status. No order is created for a failed payment, and the bank usually reverses the deduction within 5 to 7 business days. If it takes longer, share the transaction reference with the customer. [OG-004]\n\nYes. In a resolved case dated 5 September 2026, a customer’s failed UPI payment for a OnePlus 13 was reversed in 3 days after support confirmed no order was created and shared the transaction reference. [TCK-1010]",
+      "retrieved_ids": [
+        "OG-004",
+        "TCK-1010",
+        "SH-004",
+        "FAQ-003"
+      ],
+      "sources": [
+        "OG-004",
+        "TCK-1010"
+      ],
+      "routing": null,
+      "contexts": [
+        "[OG-004] Payment failed but money deducted (date: 2026-07-01)\nIf a payment fails but money is deducted from the customer's account, the bank usually reverses it within 5 to 7 business days. No order is created for a failed payment. The support team should check the payment status and share the transaction reference with the customer if the reversal takes longer.",
+        "[TCK-1010] Payment failed but money deducted for OnePlus 13 (date: 2026-09-05)\nCustomer issue: UPI payment for a OnePlus 13 failed but Rs 69,999 was deducted. Resolution: Confirmed no order was created. Shared the transaction reference and informed the customer that the bank reverses failed payments within 5 to 7 business days, as per OG-004. Amount was reversed in 3 days. Status: Resolved.",
+        "[SH-004] Cash on Delivery limits (date: 2026-07-01)\nCash on Delivery is available for orders up to Rs 50,000. Orders above Rs 50,000 must be paid online. Cash on Delivery is not available for remote pincodes or for express delivery.",
+        "[FAQ-003] What EMI options are available for the OnePlus 13? (date: 2026-07-01)\nThe OnePlus 13 can be bought on No-Cost EMI for 3 or 6 months with credit cards from major banks. Standard EMI is available for 9 and 12 months with interest charged by the bank. Debit card EMI is available for select banks. EMI options are shown on the payment page at checkout."
+      ],
+      "error": null
+    },
+    {
+      "id": "Q17",
+      "question": "A customer's replacement Galaxy S25 is also defective. What does the policy say, and has this happened before?",
+      "answer": "Under the replacement policy dated 1 July 2026, a product can be replaced only once per order. If the replacement is also defective, the customer gets a full refund. [RR-005]\n\nYes. On 9 September 2026, a customer’s replacement Galaxy S25 was also defective, and a full refund was issued. [TCK-1011]",
+      "retrieved_ids": [
+        "TCK-1011",
+        "RR-005",
+        "RR-001",
+        "RR-003",
+        "OG-005"
+      ],
+      "sources": [
+        "TCK-1011",
+        "RR-005"
+      ],
+      "routing": null,
+      "contexts": [
+        "[TCK-1011] Defective Galaxy S25 replaced, replacement also defective (date: 2026-09-09)\nCustomer issue: Galaxy S25 had a faulty speaker. A replacement was sent, but the replacement also had a display flicker. Resolution: As per RR-005, a product can be replaced only once, and if the replacement is also defective the customer gets a full refund. Full refund issued by UPI within 2 business days, as per RR-004. Status: Resolved.",
+        "[RR-005] Replacement vs refund rules (date: 2026-07-01)\nA replacement is given for the same model and colour. If the same model is out of stock, the customer can choose a refund or a different colour of the same model. Price differences are not adjusted. A product can be replaced only once per order. If the replacement unit is also defective, the customer gets a full refund.",
+        "[RR-001] Return window for all products (date: 2026-07-01)\nMost products bought from Dandes Electronics can be returned within 10 days of delivery. Mobile phones are the exception: phones are eligible for replacement only, within 7 days of delivery, and only if they are defective or damaged. After the return window ends, customers must use the manufacturer warranty. This policy is effective from 1 July 2026 and replaces all earlier return windows.",
+        "[RR-003] Damaged or defective products (date: 2026-07-01)\nIf a product arrives damaged or defective, the customer must report it within 48 hours of delivery using the Report a Problem option on the Orders page. Photos of the product and box, and an unboxing video if available, are required. After a pickup and quality check, the customer can choose a replacement or a full refund. For mobile phones, a refund is given only if a replacement unit is not available.",
+        "[OG-005] How to report a damaged, defective or wrong item (date: 2026-07-01)\nTo report a damaged, defective or wrong item, the customer opens the order on the Orders page and selects Report a Problem within 48 hours of delivery. The customer uploads photos of the product, the box and the shipping label, and an unboxing video if available. A pickup is scheduled within 2 business days. After the quality check, a replacement or refund is processed as per policies RR-003 and RR-005."
+      ],
+      "error": null
+    },
+    {
+      "id": "Q18",
+      "question": "Do you sell washing machines?",
+      "answer": "I don't know based on the available information.",
+      "retrieved_ids": [
+        "FAQ-002",
+        "FAQ-004",
+        "RR-003",
+        "RR-002",
+        "RR-001"
+      ],
+      "sources": [],
+      "routing": null,
+      "contexts": [
+        "[FAQ-002] Is the Samsung Galaxy S25 sold by Dandes Electronics the India version? (date: 2026-07-01)\nYes. Every Samsung Galaxy S25 sold by Dandes Electronics is the official India version. It comes with a 1-year manufacturer warranty that can be claimed at any authorised Samsung service centre in India. Keep the Dandes Electronics invoice, as it is needed for warranty claims.",
+        "[FAQ-004] Can I exchange my old phone when buying a Google Pixel 9? (date: 2026-07-01)\nYes. Dandes Electronics offers an exchange programme on the Google Pixel 9. Enter the old phone's brand, model and condition at checkout to see the exchange value. The old phone is collected at the time of delivery. If the old phone's condition does not match what was entered, the exchange value may be reduced or the exchange may be cancelled.",
+        "[RR-003] Damaged or defective products (date: 2026-07-01)\nIf a product arrives damaged or defective, the customer must report it within 48 hours of delivery using the Report a Problem option on the Orders page. Photos of the product and box, and an unboxing video if available, are required. After a pickup and quality check, the customer can choose a replacement or a full refund. For mobile phones, a refund is given only if a replacement unit is not available.",
+        "[RR-002] Returning opened products (date: 2026-07-01)\nOpened laptops and accessories can be returned within 10 days of delivery if they are in good condition, have no physical damage, and are returned with the original box, all accessories, manuals and the invoice. Opened products with missing accessories or physical damage will not be accepted. Opened mobile phones cannot be returned for change of mind.",
+        "[RR-001] Return window for all products (date: 2026-07-01)\nMost products bought from Dandes Electronics can be returned within 10 days of delivery. Mobile phones are the exception: phones are eligible for replacement only, within 7 days of delivery, and only if they are defective or damaged. After the return window ends, customers must use the manufacturer warranty. This policy is effective from 1 July 2026 and replaces all earlier return windows."
+      ],
+      "error": null
+    },
+    {
+      "id": "Q19",
+      "question": "What is the weather forecast for Mumbai tomorrow?",
+      "answer": "I don't know based on the available information.",
+      "retrieved_ids": [
+        "SH-003",
+        "RR-001",
+        "FAQ-002",
+        "SH-001",
+        "SH-002"
+      ],
+      "sources": [],
+      "routing": null,
+      "contexts": [
+        "[SH-003] Express delivery (date: 2026-07-01)\nExpress delivery is available in select metro cities: Bengaluru, Chennai, Delhi NCR, Hyderabad, Mumbai and Pune. Orders placed before 2 PM are delivered the next day. Express delivery costs Rs 149 per order, even for orders above Rs 499. Express delivery is not available for Cash on Delivery orders.",
+        "[RR-001] Return window for all products (date: 2026-07-01)\nMost products bought from Dandes Electronics can be returned within 10 days of delivery. Mobile phones are the exception: phones are eligible for replacement only, within 7 days of delivery, and only if they are defective or damaged. After the return window ends, customers must use the manufacturer warranty. This policy is effective from 1 July 2026 and replaces all earlier return windows.",
+        "[FAQ-002] Is the Samsung Galaxy S25 sold by Dandes Electronics the India version? (date: 2026-07-01)\nYes. Every Samsung Galaxy S25 sold by Dandes Electronics is the official India version. It comes with a 1-year manufacturer warranty that can be claimed at any authorised Samsung service centre in India. Keep the Dandes Electronics invoice, as it is needed for warranty claims.",
+        "[SH-001] Standard delivery times and charges (date: 2026-07-01)\nStandard delivery takes 2 to 4 business days in metro cities and 3 to 6 business days in other serviceable pincodes. Delivery is free for orders of Rs 499 and above. Orders below Rs 499 have a delivery charge of Rs 49.",
+        "[SH-002] Delivery to remote pincodes (date: 2026-07-01)\nRemote pincodes include parts of the North-East states, Jammu and Kashmir, Ladakh, the Andaman and Nicobar Islands, Lakshadweep and some hill areas. Delivery to remote pincodes takes 5 to 9 business days. The normal delivery charges apply, so orders of Rs 499 and above are still free. Express delivery is not available for remote pincodes."
+      ],
+      "error": null
+    },
+    {
+      "id": "Q20",
+      "question": "Can you help me book a flight ticket to Delhi?",
+      "answer": "I don't know based on the available information.",
+      "retrieved_ids": [
+        "SH-003",
+        "SH-002",
+        "FAQ-007",
+        "SH-001",
+        "OG-003"
+      ],
+      "sources": [],
+      "routing": null,
+      "contexts": [
+        "[SH-003] Express delivery (date: 2026-07-01)\nExpress delivery is available in select metro cities: Bengaluru, Chennai, Delhi NCR, Hyderabad, Mumbai and Pune. Orders placed before 2 PM are delivered the next day. Express delivery costs Rs 149 per order, even for orders above Rs 499. Express delivery is not available for Cash on Delivery orders.",
+        "[SH-002] Delivery to remote pincodes (date: 2026-07-01)\nRemote pincodes include parts of the North-East states, Jammu and Kashmir, Ladakh, the Andaman and Nicobar Islands, Lakshadweep and some hill areas. Delivery to remote pincodes takes 5 to 9 business days. The normal delivery charges apply, so orders of Rs 499 and above are still free. Express delivery is not available for remote pincodes.",
+        "[FAQ-007] Does Dandes Electronics help set up a new HP Pavilion 15 laptop? (date: 2026-07-01)\nYes. Customers who buy the HP Pavilion 15 get a free remote setup session. A Dandes Electronics technician helps with Windows setup, account creation, driver updates and data transfer over a video call. The session can be booked within 15 days of delivery from the Orders page.",
+        "[SH-001] Standard delivery times and charges (date: 2026-07-01)\nStandard delivery takes 2 to 4 business days in metro cities and 3 to 6 business days in other serviceable pincodes. Delivery is free for orders of Rs 499 and above. Orders below Rs 499 have a delivery charge of Rs 49.",
+        "[OG-003] How to track an order (date: 2026-07-01)\nCustomers can track an order from the Orders page or with the tracking link sent by SMS and email after shipping. Tracking updates can take up to 24 hours to appear after the order is shipped. If tracking has not updated for more than 3 business days, the support team should raise a courier escalation."
+      ],
+      "error": null
+    }
+  ]
+}

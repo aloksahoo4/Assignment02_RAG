@@ -1,0 +1,11 @@
+Metric,V1 (basic),V2 (single index),V2 (multi-index + routing)
+Routing Accuracy,n/a,n/a,100%
+Precision@5,0.29,0.30,0.31
+Recall@5,0.91,0.93,0.99
+Coverage (multi-source),0.93,0.97,0.97
+Faithfulness (LLM judge),1.00,0.99,0.97
+Faithfulness (RAGAS),1.00,0.94,0.99
+Answer Relevancy,0.74,0.74,0.74
+Context Precision / Recall,0.93 / 0.94,0.94 / 0.96,0.98 / 0.97
+Refusal Accuracy,100%,100%,100%
+False Refusals,1,0,0

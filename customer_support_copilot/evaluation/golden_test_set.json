@@ -1,0 +1,142 @@
+[
+  {
+    "id": "Q01",
+    "question": "Can I return an opened laptop on day 8 if I have the original box and all accessories?",
+    "reference_answer": "Yes. Under the current policy effective 1 July 2026, opened laptops can be returned within 10 days of delivery if they are in good condition and include the original box, all accessories, manuals and the invoice. (An older 2025 ticket mentions a 7-day window, but the current policy replaces it.)",
+    "expected_sources": ["RR-001", "RR-002"],
+    "expected_indexes": ["policy_index"]
+  },
+  {
+    "id": "Q02",
+    "question": "My Galaxy Buds3 Pro left earbud won't connect. Is this a known issue, and has the same problem been resolved for another customer? What fixed it?",
+    "reference_answer": "Yes, it's a known issue, usually after pairing with a new phone. Put both earbuds in the case and close the lid for 10 seconds, then reset them from the Galaxy Wearable app (or by holding both touchpads for 7 seconds) and pair again as a new device. A previous customer had the same problem after switching phones (TCK-1001): the earbuds were still paired with the old phone, and resetting and pairing again as a new device fixed it. If it still doesn't work, treat it as defective (within 48 hours of delivery) or raise a warranty claim.",
+    "expected_sources": ["KI-001", "TCK-1001"],
+    "expected_indexes": ["product_index", "ticket_index"]
+  },
+  {
+    "id": "Q03",
+    "question": "How long does delivery take to a remote pincode, and is it free?",
+    "reference_answer": "Delivery to remote pincodes takes 5 to 9 business days. The normal delivery charges apply, so orders of Rs 499 and above are still free. Express delivery isn't available for remote pincodes.",
+    "expected_sources": ["SH-002"],
+    "expected_indexes": ["policy_index"]
+  },
+  {
+    "id": "Q04",
+    "question": "A customer wants to change the address after the order shipped. What is the official process, and do we have a resolved case like this?",
+    "reference_answer": "Official process (OG-002): the address can't be changed after shipping. The customer can ask the courier to reschedule delivery to the same address, or refuse the delivery and place a new order with the correct address. Resolved case (TCK-1004): a customer who had moved refused the delivery of a shipped Sony WH-1000XM5 order and placed a new order with the new address. The refund for the first order was issued after the package reached the warehouse.",
+    "expected_sources": ["OG-002", "TCK-1004"],
+    "expected_indexes": ["order_index", "ticket_index"]
+  },
+  {
+    "id": "Q05",
+    "question": "What does policy RR-004 say?",
+    "reference_answer": "Refunds start after the returned product passes the quality check. UPI and wallet: 1 to 3 business days. Credit/debit card and net banking: 5 to 7 business days. Cash on Delivery: to the customer's bank account within 5 to 7 business days, after they add bank details on the Orders page. EMI: refunded to the card, and the bank closes the EMI plan.",
+    "expected_sources": ["RR-004"],
+    "expected_indexes": ["policy_index"]
+  },
+  {
+    "id": "Q06",
+    "question": "A customer received a damaged phone and wants a refund instead of a replacement. What is the official process, and do we have a previous resolved case where a refund was issued?",
+    "reference_answer": "Official process: the customer must report it within 48 hours of delivery using Report a Problem, with photos of the product, box and shipping label, plus an unboxing video if available. A pickup is scheduled and the product goes through a quality check. For mobile phones, a replacement is given first; a refund is given only if a replacement unit (same model and colour) isn't available. Refund timelines depend on the payment method: UPI and wallet 1 to 3 business days, cards and net banking 5 to 7 business days. Resolved case (TCK-1002): an iPhone 16 arrived with a cracked screen; a replacement was not available in the same colour, so a full refund was issued to the credit card.",
+    "expected_sources": ["RR-003", "RR-004", "RR-005", "OG-005", "TCK-1002"],
+    "expected_indexes": ["policy_index", "order_index", "ticket_index"]
+  },
+  {
+    "id": "Q07",
+    "question": "Do you sell refrigerators?",
+    "reference_answer": "I don't know based on the available information.",
+    "expected_sources": [],
+    "expected_indexes": []
+  },
+  {
+    "id": "Q08",
+    "question": "Can I use Cash on Delivery for a Rs 60,000 laptop?",
+    "reference_answer": "No. Cash on Delivery is only available for orders up to Rs 50,000. Orders above Rs 50,000 must be paid online.",
+    "expected_sources": ["SH-004"],
+    "expected_indexes": ["policy_index"]
+  },
+  {
+    "id": "Q09",
+    "question": "Which cities have express delivery, how fast is it and what does it cost?",
+    "reference_answer": "Express delivery is available in select metro cities: Bengaluru, Chennai, Delhi NCR, Hyderabad, Mumbai and Pune. Orders placed before 2 PM are delivered the next day. It costs Rs 149 per order, even for orders above Rs 499, and it is not available for Cash on Delivery orders.",
+    "expected_sources": ["SH-003"],
+    "expected_indexes": ["policy_index"]
+  },
+  {
+    "id": "Q10",
+    "question": "Can the Sony WH-1000XM5 stay connected to my laptop and my phone at the same time?",
+    "reference_answer": "Yes. The Sony WH-1000XM5 headphones support multipoint connection, so they can stay connected to two devices, such as a laptop and a phone, at the same time. Multipoint is turned on from the Sony Headphones Connect app.",
+    "expected_sources": ["FAQ-010"],
+    "expected_indexes": ["product_index"]
+  },
+  {
+    "id": "Q11",
+    "question": "Does the Dell XPS 13 come with Windows and Microsoft Office?",
+    "reference_answer": "The Dell XPS 13 sold by Dandes Electronics comes with Windows 11 Home pre-installed and activated. Microsoft Office is not included unless the customer buys the laptop with the Office bundle offer.",
+    "expected_sources": ["FAQ-006"],
+    "expected_indexes": ["product_index"]
+  },
+  {
+    "id": "Q12",
+    "question": "How do I raise a warranty claim once the return window is over?",
+    "reference_answer": "After the return window ends, defects are covered by the manufacturer warranty. The customer can download the invoice from the Orders page and visit the brand's authorised service centre, or book an onsite visit if the product has onsite warranty, such as the Lenovo ThinkPad E14. Dandes Electronics does not repair products directly.",
+    "expected_sources": ["OG-006"],
+    "expected_indexes": ["order_index"]
+  },
+  {
+    "id": "Q13",
+    "question": "How can I track my order, and how long do tracking updates take to appear?",
+    "reference_answer": "Customers can track an order from the Orders page or with the tracking link sent by SMS and email after shipping. Tracking updates can take up to 24 hours to appear after the order is shipped. If tracking has not updated for more than 3 business days, the support team should raise a courier escalation.",
+    "expected_sources": ["OG-003"],
+    "expected_indexes": ["order_index"]
+  },
+  {
+    "id": "Q14",
+    "question": "Do we have a past case where a customer received the wrong colour laptop? How was it resolved?",
+    "reference_answer": "Yes (TCK-1007). A customer ordered a Midnight MacBook Air M3 but received a Silver one. The customer reported it within 48 hours through Report a Problem. The Midnight colour was in stock, so a replacement was sent after pickup.",
+    "expected_sources": ["TCK-1007"],
+    "expected_indexes": ["ticket_index"]
+  },
+  {
+    "id": "Q15",
+    "question": "My MacBook Air M3 shows Not Charging. Is this a known issue, and has it been resolved for another customer?",
+    "reference_answer": "Yes, it's a known issue (KI-004): with a phone charger the MacBook Air M3 charges very slowly or shows Not Charging. Use the Apple charger supplied in the box or a USB-C Power Delivery charger of 30W or more; a 20W phone charger is not enough. Resolved case (TCK-1008): a customer was using a 20W phone charger, and the laptop charged normally after switching to the original Apple charger or a 30W or higher USB-C PD charger.",
+    "expected_sources": ["KI-004", "TCK-1008"],
+    "expected_indexes": ["product_index", "ticket_index"]
+  },
+  {
+    "id": "Q16",
+    "question": "A customer's payment failed but the money was deducted. What should support do, and do we have a resolved case like this?",
+    "reference_answer": "Process (OG-004): no order is created for a failed payment, and the bank usually reverses the money within 5 to 7 business days. Support should check the payment status and share the transaction reference with the customer if the reversal takes longer. Resolved case (TCK-1010): a UPI payment for a OnePlus 13 failed but Rs 69,999 was deducted. Support confirmed no order was created and shared the transaction reference, and the amount was reversed in 3 days.",
+    "expected_sources": ["OG-004", "TCK-1010"],
+    "expected_indexes": ["order_index", "ticket_index"]
+  },
+  {
+    "id": "Q17",
+    "question": "A customer's replacement Galaxy S25 is also defective. What does the policy say, and has this happened before?",
+    "reference_answer": "Policy (RR-005): a product can be replaced only once per order, and if the replacement unit is also defective the customer gets a full refund. Resolved case (TCK-1011): a Galaxy S25 with a faulty speaker was replaced, the replacement had a display flicker, and a full refund was issued by UPI within 2 business days.",
+    "expected_sources": ["RR-005", "TCK-1011"],
+    "expected_indexes": ["policy_index", "ticket_index"]
+  },
+  {
+    "id": "Q18",
+    "question": "Do you sell washing machines?",
+    "reference_answer": "I don't know based on the available information.",
+    "expected_sources": [],
+    "expected_indexes": []
+  },
+  {
+    "id": "Q19",
+    "question": "What is the weather forecast for Mumbai tomorrow?",
+    "reference_answer": "I don't know based on the available information.",
+    "expected_sources": [],
+    "expected_indexes": []
+  },
+  {
+    "id": "Q20",
+    "question": "Can you help me book a flight ticket to Delhi?",
+    "reference_answer": "I don't know based on the available information.",
+    "expected_sources": [],
+    "expected_indexes": []
+  }
+]

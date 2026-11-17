@@ -1,0 +1,13 @@
+# Secrets
+.env
+
+# Local environment and IDE
+.venv/
+.idea/
+
+# Python caches
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
